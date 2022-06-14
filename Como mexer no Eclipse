@@ -4,3 +4,56 @@ Data de Atualização: 13/06/2022
 >Logo após iniciar o app, escolher o <Eclipse IDE for Enterprise Java and Web Developers>  
 >Clicar em download
 >Install
+>Launch
+>Launch
+>La wm cima "WINDOW -> PERSPECTIVE -> OPEN PERSPECTIVE -> JAVA"
+>Para volta pro default "WINDOW -> PERSPECTIVE -> RESET PERSPECTIVE
+>Creat JAVA project
+   >Next
+   >Finish
+   >Don´t
+>Ir em src
+   >botao direito
+   >new
+   >package 
+>Ir na Package
+    >Hellio
+    >Marcar a pUBLIC STATIC
+    >Generate
+    >Finish
+>Ir na primeira linha 
+    >Abrir um novo comentario na linha 1 *Hello world
+>Mudar nome do autor
+>Acrescentar mais um comentario no "public class"
+     >Metodo Principal
+>Ir no public sttatic
+   >Apgar toda linha e colocar "System.out.println("Hello World");"
+>Salvar em todos e depois da um RUN
+================================================================================
+COMO CRIAR O METODO EXE
+>Botao direito no HELLO
+>New
+>Export
+>runnable
+>abrir o cmd
+>cd ..
+>cd ..
+>dir
+>cd users
+>dir
+>cd seu usuario
+>cd documents
+>dir
+>java -jar hello1.jar
+==================================================================================
+Interface Grafica
+>Pra colocar como comentario na interface grafica é //
+>No Public Static colocar
+     >JOptionPane.showMessageDialog(null, "Hello World");
+     >salvar todos
+     >RUN
+     >Botao Direito no Hello
+     >Export
+     >Runnable
+     >mudar para hello2
+     >finish
