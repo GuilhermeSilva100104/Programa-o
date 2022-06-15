@@ -2,7 +2,9 @@ Autor: Guilherme Morgado Silva
 Data de Atualização: 13/06/2022
 =========================================================================================================================================================================
 Instalar o JDK
-  >
+  >sudo apt update
+  >sudo apt install -y openjdk-17-jdk
+  >java -version
 
 Site para Instalar o Eclipse do JAVA
     >Eclipse.Org
