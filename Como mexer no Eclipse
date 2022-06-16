@@ -1,5 +1,5 @@
 Autor: Guilherme Morgado Silva
-Data de Atualização: 13/06/2022
+Data de Atualização: 15/06/2022
 =========================================================================================================================================================================
 >Logo após iniciar o app, escolher o <Eclipse IDE for Enterprise Java and Web Developers>  
 >Clicar em download
@@ -49,7 +49,7 @@ COMO CRIAR O METODO EXE
 Interface Grafica
 >Pra colocar como comentario na interface grafica é //
 >No Public Static colocar
-     >JOptionPane.showMessageDialog(null, "Hello World");
+     >JOptionPane.showMessageDialog(null, "Qualquer Coisa");
      >salvar todos
      >RUN
      >Botao Direito no Hello
@@ -57,3 +57,86 @@ Interface Grafica
      >Runnable
      >mudar para hello2
      >finish
+====================================================================================================
+Fundamentos-Lógica
+Variáveis -> RAM
+ >variáveis string(caracteres)
+ >variáveis numéricas(n° inteiros e nao inteiros)
+ >variáveis booleanas(verdadeiro / falso)
+==============================================================================================================
+NO ECLIPSE
+ >Botão Direito em Fundamentos
+ >NEW
+ >class
+ >Nome:Variaveis (obs: não colocar ascentos)
+ >Marcar o Public e comments
+ >Na linha 2 colocar  titulo: Estudo das Variaveis
+ >Colocar seu nome no author
+ >Depois d LINH 12 colocar: Metodo Pincipal
+ >Em baixo do Public criar um comentario( sempre quando for comentario colocar //): // Criando uma variável no Java
+ >Em baixo do comentário colocar: String nome;
+ >Embaixo do String colocar: nome ="Seu nome"
+ >Ir em Help
+ >Eclipse Marktplace
+ >Pesquisar window Builder
+ >instalar o 1°
+ >confirm
+ >I accept
+ >finish
+ >Reiniciar
+ ==============================================================================================================================
+CRIAR UM NOVO PROJETO
+ >file
+ >new
+ >Java Project
+ >Nome: Portifolio de projetos
+ >don´t create
+ >botao direito no src
+ >new
+ >package
+ >nome:portifolio
+ >AGORA DENTRO DO PORTIFOLIO
+    >botao direito no portifolio
+    >new
+    >others
+    >windowbuilder
+    >Swing
+    >Jdialog(Secundario)
+==================================================================================================================================
+ PARA FUNCIONAR QUANDO CLICAR NO BOATO ABRIR NOVA GUIA
+    >ir no principal (jframe)
+    >Ir no pane e mudar para layout absoluto
+    >resizable(false)
+    >title (seu titulo)
+    >Acrescente um botao
+    >mude o titulo do botao
+    >clicar 2x no botao e colocar o codigo *// as linhas abaixo fazem o link com o fomulario *TITULO DO BOTAO*
+				*TITULO DO BOTAO EM MAIUSCULO* *TITULO DO BOTAO EM MINUSCULO* = new *TITULO DO BOTAO EM MAIUSCULO*();
+				*TITULO DO BOTAO EM MINUSCULO*.setVisible(true);
+=============================================================================================================================
+PARA MOSTRAR UM TEXTO IMAGEM NA 2°VIA
+   >Ir no jdialog(secundario)
+   >pane
+   >mudar para layout absoluto
+   >jlabel
+   >pegar o TEXTFIELD
+   >Acrescentar um Botão
+   >Selecionar a caixa de texto
+   >mudar a variable para: txtNome
+   >clicar 2x no botao Salvar
+   >Colocar o código dentro das {}:	//Cálculo do IMC
+				 String nome;
+				 //Armazrnando o conteudo da caixa de texto na variavel
+				 nome = txtNome.getText();
+				 //A linha abaixo exibe o nome armazenado na variavel em uma caixa de mensagem
+				   JOptionPane.showMessageDialog(null, "Nome: " + nome);
+       <OBS* SEMPRE SALVAR ALL E EXECUTAR PARA VER SE DAR CERTO>
+================================================================================================================================
+COMO PERSONALIZAR A CAIXA D MENSAGEM
+ > //Para personalizar a caixa de mensagem devemos adicionar um texto para o titulo e um icone personalizado
+				   JOptionPane.showMessageDialog(null, "Nome: " + nome, "Aluno", JOptionPane.DEFAULT_OPTION);
+======================================================================================================
+DICAS DE ECLIPSE:
+  >sysout <ctrl + espaço> vira  System.out.println()
+  >como tirar o sinal de alerta <clicar na lampada e acrescentar o primeiro e salvar>
+ 
