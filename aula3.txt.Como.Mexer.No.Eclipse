@@ -1,15 +1,40 @@
 Autor: Guilherme Morgado Silva
 Data de Atualização: 23/06/2022
-=======================================================================================================================================================
+==========================================================================================================================================================================================
 Jframe = Onde fica os botões
 JDialog = Onde fica o "Corpo" do botão clicado, sempre desmarcar o General
-=========================================================================================================================================================
-REVISÃO JAVA NO ECLIPSE
-  >1° Criar um package
-  >2° No Package Criar um Jframe(Principal) e um Jdialog(Onde ficara o "Corpo" da pagina)
-  >3° No Jframe Clicar no "contentPane" e mudar o Layout para "Absolute"
-  >4° No Jdialog mudar o "modal" para "true", mudar o titulo para "SEU_TITULO"
-  >5° Se quiser calcular ou colcar algo no Jdialog so colocar um "jLabel" e um "Jtext"
-  >6° No "Jtext" mudar a "variable" para "txtE_O_NOME_DO_JLabel"
-  >7° No "JLabel" mudar o "titulo" para SEU_TITULO"
-  CONTINUAR EM CASA....
+=======================================================================================================================================================================================
+SITE PARA PEGAR ICONES
+ >Iconfnder
+   <*OBS: pesquisas so em inglês>
+=======================================================================================================================================================================================
+COMO CRIAR ICONES NO PORTIFOLIO
+  >1° Fazer o dowalod das imagens no Iconfinder
+  >2° Ir no src botao Direito, New, Package
+  >3° Nome do pacote: img
+  >4° arrastar a imagem baixada para o pacote
+  >5° Copy imagem
+  >6° Ir no design do portifolio(Para trocar o icone do java no lado superior esquerdo do painel)
+       >Selecionar o Jfram
+        > iconimage, clicar nos 3pontos do lado, class, ok
+  >7° Como mudar os icones dos botões do Jframe
+     >Seleciona o botão
+     >Bounds( + )
+     >width: 64 heigth: 64
+     >Icon 3 pontos
+     >Class
+     >Media
+     >Selecionar o botão
+     >Ir em ToolTipeText: Calculadora da Média
+ >8°Como mudar o cursor para mão
+     >Selecionar o botão
+     >Ir no 4º icone do properties
+     >Cursor
+     >Hand_Cursor
+  >9°Como acrescentar icone no Sobre
+       >Arrastar uma imagem np pacote img
+       >Ir no Sobre
+       >JLabe
+       >Tirar o texto
+       >3 pontos do icon
+       >Class e redimensionar
