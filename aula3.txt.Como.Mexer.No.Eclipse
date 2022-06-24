@@ -1,0 +1,15 @@
+Autor: Guilherme Morgado Silva
+Data de Atualização: 23/06/2022
+=======================================================================================================================================================
+Jframe = Onde fica os botões
+JDialog = Onde fica o "Corpo" do botão clicado, sempre desmarcar o General
+=========================================================================================================================================================
+REVISÃO JAVA NO ECLIPSE
+  >1° Criar um package
+  >2° No Package Criar um Jframe(Principal) e um Jdialog(Onde ficara o "Corpo" da pagina)
+  >3° No Jframe Clicar no "contentPane" e mudar o Layout para "Absolute"
+  >4° No Jdialog mudar o "modal" para "true", mudar o titulo para "SEU_TITULO"
+  >5° Se quiser calcular ou colcar algo no Jdialog so colocar um "jLabel" e um "Jtext"
+  >6° No "Jtext" mudar a "variable" para "txtE_O_NOME_DO_JLabel"
+  >7° No "JLabel" mudar o "titulo" para SEU_TITULO"
+  CONTINUAR EM CASA....
