@@ -1,0 +1,38 @@
+Autor: Guilherme Morgado Silva
+Data de Atualização: 30/06/2022
+========================================================================================================================================================================================================
+COMO COLOCAR "PREENCHA O ..."
+ >Ir em algum JDIalog
+   >Depois do void calcular() colocar: //Validação
+		                                    if(txtNome.getText().isEmpty()) {
+			
+	                                     	}else {
+			
+		                                    }
+  >Selecionar do variaveis e dar um ctrl x e em baixo do else dar um ctrl v
+  >Embaixo do if (txtNome.getText().isEmpty()) colocar: JOptionPane.showMessageDialog(null, "Preencha o nome");
+                                                        txtNome.requestFocus()
+                                                        } else if (txtIdade.getText().isEmpty()) {
+			                                                  JOptionPane.showMessageDialog(null, "Preencha a idade");
+			                                                  txtIdade.requestFocus();
+		                                                    }
+		                                                    else if (txtPeso.getText().isEmpty()){
+			                                                  JOptionPane.showMessageDialog(null, "Preencha o Peso");
+			                                                  txtPeso.requestFocus();
+		                                                    }else if (txtAltura.getText().isEmpty()) {
+			                                                  JOptionPane.showMessageDialog(null, "Preencha a Altura");
+			                                                  txtAltura.requestFocus();
+		                                                    }else
+=================================================================================================================================================================================================================================================================================================================
+COMO GERAR NUMEROS ALEATORIOS
+ >Ir em fundamentos
+   >src Botao D
+   >New 
+   >Class
+   >Nome: Numeros Aleatorios
+   >No public static void main(String[] args) colocar: 	// As linhas abaixo geram numeros inteiros aleatorios
+		                                                   // O "zero" sempre é considerado
+		                                                  //(6) gerar números entre 0 e 5(0 1 2 3 4 5)
+		                                                      Random random = new Random();
+		                                                      int face = random.nextInt(6) + 1;
+		                                                      System.out.println("Face do dado: " + face);
